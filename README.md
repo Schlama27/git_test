@@ -1,2 +1,1 @@
-# git_test
-"Hello Odin!"
+# rock_paper_scissors
