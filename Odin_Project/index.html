@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Test</title>
+  <style>
+    
+  </style>
+  </head>
+<body>
+  <script>
+
+  // const convertToCelsius = function(num) {
+  //   let number = ((num - 32) * 5 / 9).toFixed(1)
+  //   return number
+  //   let type = console.log(typeof number);
+  // };
+
+  // const convertToFahrenheit = function(num) {
+  //   let number = ((num * 9 / 5 + 32)).toFixed(1)
+  //   return number
+  // };
+
+  // console.log(convertToCelsius(32));
+  // console.log(convertToFahrenheit(0));
+
+
+    // const leapYears = function (year) {
+    //   const isYearDivisibleByFour = year % 4 === 0;
+    //   const isYearDivisibleByOneHundred = year % 100 === 0;
+    //   const isYearDivisibleByFourHundred = year % 400 === 0;
+
+    //   if (isYearDivisibleByFour && !isYearDivisibleByOneHundred || isYearDivisibleByFourHundred) {
+    //     return true;
+    //   } else {
+    //     return false;
+    //   }
+    // };
+
+    // console.log(leapYears(1996))
+
+  
+
+// const leapYears = function(year) {
+//     let result;
+//     if (year % 400 === 0) {
+//       return true;
+//     } else if (year % 100 === 0) {
+//       return false;
+//     } else if (year % 4 === 0 && !year % 100 === 0) {
+//       return true;
+//     } else {
+//       return false;
+//     }
+// };
+
+// console.log(leapYears(1900));
+
+
+  // const sumAll = function(x, y) {
+  //     let finalSum = 0;
+  //     for (let i = x; i <= y; i++) {
+  //         finalSum += i;
+  //     }
+  //     return finalSum;
+  // };
+
+  // console.log(sumAll(3, 5))
+
+
+
+  // const removeFromArray = function(array, ...args) {
+  //     return array.filter(arg => !args.includes(arg));
+  // }
+
+  // let newArray = removeFromArray([1, 2, 3, 4], 3, 2);
+
+  // console.log(newArray);
+
+
+  // const reverseString = function(word) {
+  //   let splitWord = word.split('');
+    
+  //   let reverseWord = splitWord.reverse();
+    
+  //   return reverseWord.join('');
+  // }; 
+
+
+// const repeatString = function(string, times) {
+//     let repeatedString = "";
+//     if (times < 0) return 'ERROR';
+//     for (let i = 0; i < times; i++) {
+//         repeatedString += string;
+//     }
+//     return repeatedString;
+// };
+
+
+//   console.log(repeatString('hey', 3));
+
+
+    // let num;
+
+    // while (true) {
+    //   num = prompt('Choose a number greater than 100', 0);
+    //   if (num > 100 || !num) break; 
+    // }
+
+    
+    // let i = 10;
+
+    // for (i = 10; i >= 0; i--) {
+    //   if (i === 10) {
+    //     console.log('Countdown 10'); 
+    //   } else if (i === 0) {
+    //     console.log('Blast off!');
+    //   } else {
+    //     console.log(i);
+    //   }
+    // }
+
+
+  //  const people = ['Chris', 'Anne', 'Colin', 'Terri', 'Phil', 'Lola', 'Sam', 'Kay', 'Bruce'];
+   
+  //  for (const person of people) {
+  //   console.log(`Hello ${person}`);
+  //  }
+
+  //  let admitted = [];
+  //  let refused = [];
+
+  //  for (i = 0; i < people.length; i++) {
+  //   if (people[i] === 'Lola' || people[i] === 'Phil') {
+  //     refused.push(people[i]);
+  //   } else {
+  //     admitted.push(people[i]);
+  //   }
+  //  };
+
+  //  console.log(admitted);
+  //  console.log(refused);
+
+  //  let peopleAdmitted = 'The following are allowed to enter: '
+  //  let peopleRefused = 'The following are not to enter: '
+
+  //  for (i = 0; i < admitted.length; i ++) {
+  //   if (i === admitted.length - 1) {
+  //     peopleAdmitted += `and ${admitted[i]}.`;
+  //   } else {
+  //     peopleAdmitted += `${admitted[i]}, `;
+  //   }
+  //  }
+
+  //  for (i = 0; i < refused.length; i++) {
+  //   if (i === refused.length - 1) {
+  //     peopleRefused += `and ${refused[i]}.`;
+  //   } else {
+  //     peopleRefused += `${refused[i]} `;
+  //   }
+  //  }
+
+  //  console.log(peopleAdmitted);
+  //  console.log(peopleRefused);
+
+ 
+    // const cats = ["Pete", "Biggles", "Jasmine"];
+
+    // let myFavoriteCats = "My cats are called ";
+
+    // let i = 0;
+
+    // do {
+    //   if (i === cats.length - 1) {
+    //     myFavoriteCats += `and ${cats[i]}`;
+    //   } else {
+    //     myFavoriteCats += `${cats[i]}, `;
+    //   }
+    //   i++;
+    // } while (i < cats.length);
+
+    // console.log(myFavoriteCats);
+
+    // while (i < cats.length ) {
+    //   if (i === cats.length - 1) {
+    //     myFavoriteCats += `and ${cats[i]}`;
+    //   } else {
+    //   myFavoriteCats += `${cats[i]}, `;
+    //   }
+    //   i++;
+    // };
+
+    // console.log(myFavoriteCats);
+
+    
+
+    // for (i = 0; i < cats.length; i++) {
+    //   if (i === cats.length - 1) {
+    //     myFavoriteCats += `and ${cats[i]}.`;
+    //   } else {
+    //     myFavoriteCats += `${cats[i]}, `;
+    //   }
+    // }
+
+    // console.log(myFavoriteCats);
+
+    // for (let i = 1; i < 10; i++) {
+    //   console.log(`${i} x ${i} = ${i * i}`);
+    // }
+
+//     function lCat(cat) {
+//     return cat.startsWith("L");
+// }
+
+//     const cats = ["Leopard", "Serval", "Jaguar", "Tiger", "Caracal", "Lion"];
+
+//     const filtered = cats.filter(lCat);
+
+//     console.log(filtered);
+
+
+    // function pow(x, n) {
+    //     let result = x;
+    //     for (let i = 1; i < n; i++) {
+    //         result *= x;
+    //     }
+    //     return result;
+    // }
+
+    // let x = prompt('x?', '');
+    // let n = prompt('n?', '');
+
+    // (n < 1) ? alert('n must be a positive interger') : alert(pow(x, n));
+
+    // if (n < 1) { 
+    //     alert('n must be a positive value')
+    // } else {
+    //     alert (pow(x, n));
+    // }
+
+    // let sayHi = function(name = 'Kevin') {
+    //     alert(`Hello ${name}!`)
+    // }
+
+    // let sayHiTwo = (name = 'Guest') => {
+    //     alert(`Hello ${name}`);
+    // }
+
+    // sayHiTwo('Kendra');
+
+    // function ask(question, yes, no) {
+    //     if (confirm(question)) yes()
+    //     else no();
+    // }
+
+    // ask(
+    //     "Would you like to continue?",
+    //     function() { alert("You have accepted."); },
+    //     function() { alert("You have declined."); }
+    // );
+
+    // let age = prompt("What is your age?", 18);
+    
+    // function welcome() {
+    //     if (age < 18) {
+    //         alert("You may not enter");
+    //     } else {
+    //         alert("You may enter");
+    //     }
+    // };
+
+    // welcome();
+
+    // function add7(n) {
+    //     return n + 7;
+    // }
+
+    // function multiply(x, y) {
+    //     return x * y;
+    // }
+
+    // console.log(add7(5));
+    // console.log(multiply(5, 2));
+
+    // function capitalize(string) {
+    //     return string.charAt(0).toUpperCase() + string.slice(1);
+    // }
+
+    // console.log(capitalize('orange people'));
+
+    // function lastLetter(string) {
+    //     return string.slice(-1);
+    // }
+
+    // console.log(lastLetter('Penis'));
+
+    // let answer = parseInt(prompt("Please enter a number: ")) 
+
+    // for (let i = 1; i <= answer; i++) {
+    //     if (i % 3 === 0 && i % 5 === 0) {
+    //         console.log('Fizz Buzz');
+    //     } else if (i % 3 === 0) {
+    //         console.log('Fizz');
+    //     } else if (i % 5 === 0) {
+    //         console.log('Buzz');
+    //     } else {
+    //         console.log(i);
+    //     }
+    // };
+
+    // let firstInt = prompt("First Interger?");
+
+    // let secondInt = prompt("Second Interger?");
+
+    // let x = parseInt(firstInt);
+    // let y = parseInt(secondInt);
+    // let sum = x + y;
+
+    // alert(`Fuck, ${sum}`)
+
+    
+    
+
+  </script>
+</body>
+</html>
